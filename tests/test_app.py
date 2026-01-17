@@ -29,3 +29,4 @@ class TestCalculator:
     def test_divide_by_zero(self, calc):
         with pytest.raises(ValueError):
             calc.divide(10, 0)
+ 
